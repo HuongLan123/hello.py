@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Điểm học phần</title>
+    <link rel="stylesheet" href="HP.css" />
+    <script src="signup.js" defer></script>
+</head>
+<body onload="createTable()">
+    <p id='greeting'></p>
+    
+    <h1>TÍNH ĐIỂM HỌC PHẦN MÔN HỌC</h1>
+    <table id="table">
+        <tr>
+            <td>Môn học <button type="button" onclick="getValue()">+</button></td>
+            <td>Hệ số quá trình (%)</td>
+            <td>Hệ số cuối kỳ (%)</td>
+            <td>Điểm quá trình</td>
+            <td>Điểm cuối kỳ</td>
+            <td>Điểm học phần</td>
+        </tr>
+    </table>
+    <input type="button" value="Submit" onclick="result()" />
+</body>
+</html>
+
+

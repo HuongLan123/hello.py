@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <h1>ĐĂNG NHẬP</h1>
+    <form id="login-form" onsubmit="login(event)">
+        <label for="MSSV">Mã số sinh viên:
+            <input id="MSSV" type="number" placeholder="20237342" required />
+        </label>
+        <label for="password">Mật khẩu:
+            <input id="password" type="password" placeholder="Mật khẩu" required />
+        </label>
+        <input type="submit" value="Đăng nhập" />
+        <p>Chưa có tài khoản? <a href="signup.html">Đăng ký</a></p>
+    </form>
+    <script src="signup.js"></script>
+</body>
+</html>
+
+
